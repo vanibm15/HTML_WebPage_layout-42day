@@ -1,6 +1,6 @@
 body {
     width: 200%;
-    Background-color: skyblue;
+    Background-color: rgb(136, 177, 205);
     max-width: 600px;
     margin: 0px auto;
     padding: 0px 10px;
@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    background-color: tomato;
+    background-color: rgb(224, 230, 158);
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -26,6 +26,7 @@ button {
     line-height: 1.2;
     border: 1px solid black;
 }
+
 label {
     text-align: right;
     width: 10%;
