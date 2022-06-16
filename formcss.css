@@ -1,0 +1,60 @@
+body {
+    width: 200%;
+    Background-color: skyblue;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 0px 10px;
+    border: 1px solid seashell;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: tomato;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 1px solid white;
+}
+
+lable,
+input,
+button {
+    font-size: 16px;
+    line-height: 1.2;
+    border: 1px solid black;
+}
+label {
+    text-align: right;
+    width: 10%;
+    margin-right: 3%;
+    font-weight: 15px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+error-output {
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+}
+
+@media only screen and (max-width:281px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    label {
+        width: 50%
+    }
+}
